@@ -1,0 +1,28 @@
+.hero {
+  height: 100vh;
+  background-image: url(../images/cover.jpeg);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  text-align: center;
+  padding: 0 1.4px 34.1px 0px;
+}
+
+.title {
+  font-family: RobotoSlab;
+  font-size: 42px;
+}
+
+.subtitle {
+    margin-bottom: 106.3px;
+
+}
+
+.arrow {
+  background-color: white;
+  border-radius: 22.5px;
+  padding: 14.8px 10.1px 12.6px 11px;
+  margin-bottom: 34.1px;
+}

@@ -1,8 +1,11 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer{
+  background-color: #304268;
+}
+
+.arrow-footer{
+  background-color: white;
+  width: 45px;
+  height: 45px;
+  padding: 11px 12.4px 10px 12px;
+
 }

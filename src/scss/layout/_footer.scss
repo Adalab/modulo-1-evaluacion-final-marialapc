@@ -1,11 +1,47 @@
 .footer{
   background-color: #304268;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .arrow-footer{
+  transform: translatey(-22.5px);
   background-color: white;
   width: 45px;
   height: 45px;
   padding: 11px 12.4px 10px 12px;
+  border-radius: 22.5px;
+}
+.nav{
+  color: white;
+ 
+}
 
+.list{
+ 
+
+}
+li{
+ list-style:  none;
+ color: white;
+ text-transform: uppercase;
+ text-align: center;
+ font-size: 16px;
+ font-family: 'Roboto Regular';
+}
+
+.small{
+  color: white;
+  font-family: 'Roboto Regular';
+  font-size: 14px;
+}
+.copy{
+  color: white;
+  font-family: 'Roboto Regular';
+  font-size: 14px;
+}
+.hearth{
+  color: #f26002;
 }

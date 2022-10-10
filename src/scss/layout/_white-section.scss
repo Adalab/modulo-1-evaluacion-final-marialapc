@@ -1,23 +1,24 @@
-.white-section {
+.white{
   display: flex;
   justify-content: flex-start;
   text-align: start;
   flex-direction: column;
   width: 100vw;
-}
 
-.white-article{
+&__article{
     margin-left: 15px;
     margin-top: 61.9px;
+
 }
-.insomnia-tips {
+}
+.white__h4 {
   font-family: $font-1;
   font-size: 14px;
   color: $light-blue;
   text-transform: capitalize;
   margin-bottom: 10px;
 }
- .title-white{
+ .white__title{
     font-family: $font-2;
     font-weight: bold;
     font-size: 24px;
@@ -25,13 +26,13 @@
     text-transform: capitalize;
 }
 
-.p-white{
+.white__p{
     font-family:$font-1;
     font-weight: 300;
     font-size: 18px;
 }
 
-.go{
+.white__button{
     font-family: $font-1;
     font-size: 20px;
     font-weight: 500;
@@ -48,7 +49,7 @@
    
 }
 
-.go:hover{
+.white__button:hover{
   transform:scale(1.1);
   background-color:$orange;
   border-color: transparent;
@@ -59,18 +60,18 @@
 }
 
 @media all and (min-width: 768px) {
-  .white-article{
+  .white__article{
     width: 690px;
   margin-left: 39px;}
   
-  .title-white{
+  .white__title{
     font-size: 26px;
     margin-bottom: 27px;
   }
 
-  .p-white {
+  .white__p {
     font-size:20px;}
-  .go{
+  .white__button{
     margin-bottom: 60px;
     width: 91px;
     margin-left: 39px;
@@ -80,29 +81,29 @@
 
 @media all and (min-width: 1280px) {
 
-  .white-article{
+  .white__article{
     margin-left: 275px;
     margin-top: 65px;
     margin-right: 275px;
 }
 
-.insomnia-tips{
+.white__h4{
   font-size: 16px;
 }
-.title-white{
+.white__title{
   margin-bottom: 32px;
 }
 
-.go{
+.white__button{
   margin-left: 275px;
   width: 160px;
   margin-bottom: 60px;
 }
-.title-white{
+.white__title{
   font-size: 32px;
 }
 
-.p-white{
+.white__p{
   font-size: 20px;
 }
 }

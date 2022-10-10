@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Adalab Web Starter Kit</title>
+    <title>Evaluación final - Maria Lopez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/main.css" />
     <link rel="icon" href="./assets/images/favicon.png" />
@@ -12,18 +14,88 @@
   <body>
     <div class="page">
       <header class="header">
-        <p>hi world</p>
+        <a href="https://adalab.es/">
+          <img
+            class="header__menu" src="./assets/images/ico-menu.svg"alt="menu" title="menu-hamburguesa"/></a>
       </header>
 
       <main class="main">
-       
+        <section class="hero" id="hero">
+          <h1 class="hero__title">Anonymous proxy</h1>
+          <h3 class="hero__subtitle">In hac habitasse platea dictumst.</h3>
+          <a href="./index.html#blue-section"
+            ><img
+              class="hero__arrow"
+              src="./assets/images/ico-scroll-down.svg"
+              alt="arrow"
+              title="arrow"
+          /></a>
+        </section>
+
+        <section class="white">
+          <article class="white__article">
+            <h4 class="white__h4">Insomnia tips</h4>
+            <h2 class="white__title">Looking through a window</h2>
+            <p class="white__p">
+              Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at
+              luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+            </p>
+          </article>
+          <button class="white__button">Go</button>
+        </section>
+
+        <section class="blue" id="blue-section">
+          <h2 class="blue__title">3 reasons to purchase</h2>
+          <article class="blue__article">
+            <div class="blue__div">
+              <h3 class="blue__h3">Ut sed metus</h3>
+              <p class="blue__p">Lorem ipsum dolor sit amet, consecteur.</p>
+            </div>
+
+            <div class="blue__div">
+              <h3 class="blue__h3">Curabitur ac erat</h3>
+              <p class="blue__p">Mauris mattis urna quis lorem molestie.</p>
+            </div>
+
+            <div class="blue__div">
+              <h3 class="blue__h3">Morbi dictum</h3>
+              <p class="blue__p">Aliquam in dolor et dolor tincidunt.</p>
+            </div>
+          </article>
+          <div>
+            <button class="blue__button">More reasons</button>
+          </div>
+        </section>
       </main>
 
       <footer class="footer">
-       
+        <a href="./index.html#hero"
+          ><img
+            class="footer__arrow"
+            src="./assets/images/ico-arrow.svg"
+            alt="arrow-footer" title="arrow-footer"
+        /></a>
+
+        <nav class="footer__nav">
+          <ul class="footer__ul--1">
+            <li class="footer__list--1"><a class="footer__link" href="https://adalab.es/">Articles</a></li>
+            <li class="footer__list--1"><a class="footer__link" href="https://adalab.es/">Books</a></li>
+            <li class="footer__list--1"><a class="footer__link" href="https://adalab.es/">Events</a></li>
+            <li class="footer__list--1"><a class="footer__link" href="https://adalab.es/">Reasons</a></li>
+            <li class="footer__list--1"><a class="footer__link" href="https://adalab.es/">Tips</a></li>
+          </ul>
+          <ul class="footer__ul--2">
+            <li class="footer__list--2"><a class="footer__link" href="https://adalab.es/">Twitter</a></li>
+            <li class="footer__list--2"><a class="footer__link" href="https://adalab.es/">Instagram</a></li>
+            <li class="footer__list--2"><a class="footer__link" href="https://adalab.es/">Mastodon.social</a></li>
+          </ul>
+      <div class="footer__div">
+        <p class="footer__div--copy">&COPY;2022</p>
+        <small class="footer__div--small">we<span class=" footer__div--hearth"> ❤︎ </span>components</small>
+      </div>
+      </nav>
       </footer>
 
     </div>
-    <script src="./assets/js/main.js"></script>
   </body>
 </html>

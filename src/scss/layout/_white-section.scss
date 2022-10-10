@@ -57,3 +57,14 @@
   cursor: pointer;
 
 }
+
+@media all and (min-width: 768px) {
+  .title-white{
+    font-size: 26px;
+  }
+  .p-white {
+    font-size:18px;}
+  .go{
+    margin-bottom: 60px;
+  }
+}

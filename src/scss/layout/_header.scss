@@ -10,3 +10,15 @@
 .menu {
   margin-bottom: 10.2px;
 }
+
+@media all and (min-width: 768px) {
+.header{
+  height: 44px;
+  width: 41.6px;
+
+}
+.menu{
+  margin-bottom: 0px;
+
+ } 
+}

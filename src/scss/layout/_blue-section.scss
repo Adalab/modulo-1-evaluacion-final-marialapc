@@ -61,3 +61,35 @@
   cursor: pointer;
  
 }
+
+@media all and (min-width: 768px) {
+ .title-blue{
+  margin-top: 36px;
+  font-size: 26px;
+ }
+
+ .subtitle-blue-1{
+  margin-top: 44px;
+  font-size: 24px;
+
+ }
+ .subtitle-blue-2{
+  font-size: 24px;
+ }
+ .subtitle-blue-3{
+  font-size: 24px;
+ }
+  .article-blue{
+  display: flex;
+  gap: 30px;
+    
+  }
+  .text-blue{
+    font-size: 20px;
+    width: 212.3px;
+    margin-top: 18px;
+  }
+  .more-reasons{
+    margin-top: 67px;
+  }
+}

@@ -3,6 +3,7 @@
   justify-content: flex-start;
   text-align: start;
   flex-direction: column;
+  width: 100vw;
 }
 
 .white-article{
@@ -59,12 +60,50 @@
 }
 
 @media all and (min-width: 768px) {
+  .white-article{
+    width: 690px;
+  margin-left: 39px;}
+  
   .title-white{
     font-size: 26px;
+    margin-bottom: 27px;
   }
+
   .p-white {
-    font-size:18px;}
+    font-size:20px;}
   .go{
     margin-bottom: 60px;
+    width: 91px;
+    margin-left: 39px;
   }
+}
+
+
+@media all and (min-width: 1280px) {
+
+  .white-article{
+    margin-left: 275px;
+    margin-top: 65px;
+    margin-right: 275px;
+}
+
+.insomnia-tips{
+  font-size: 16px;
+}
+.title-white{
+  margin-bottom: 32px;
+}
+
+.go{
+  margin-left: 275px;
+  width: 160px;
+  margin-bottom: 60px;
+}
+.title-white{
+  font-size: 32px;
+}
+
+.p-white{
+  font-size: 20px;
+}
 }

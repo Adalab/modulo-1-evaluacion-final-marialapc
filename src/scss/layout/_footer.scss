@@ -99,3 +99,17 @@
   }
   
 }
+@media all and (min-width: 1280px) {
+  .nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+  }
+  .small-copy {
+    margin-left: 370px;
+  }
+
+  .list-2{
+    margin-right: 370px;
+  }
+}

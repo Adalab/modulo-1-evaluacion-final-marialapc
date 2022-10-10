@@ -32,12 +32,27 @@
   margin-top: 44px;
 }
 
-.text-blue{
+.text-blue-1{
     font-family: 'Roboto';
     font-size: 18px;
     margin: 1px 2px 0;
     width: 180px;
 }
+.text-blue-2{
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin: 1px 2px 0;
+  width: 180px;
+}
+.text-blue-3{
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin: 1px 2px 0;
+  width: 180px;
+}
+
+
+
 .more-reasons{
     font-family: 'Roboto';
     font-size: 20px;
@@ -84,12 +99,73 @@
   gap: 30px;
     
   }
-  .text-blue{
+  .text-blue-1{
+    font-size: 20px;
+    width: 212.3px;
+    margin-top: 18px;
+  }
+
+  .text-blue-2{
+    font-size: 20px;
+    width: 212.3px;
+    margin-top: 18px;
+  }
+
+  .text-blue-3{
     font-size: 20px;
     width: 212.3px;
     margin-top: 18px;
   }
   .more-reasons{
     margin-top: 67px;
+    width: 210px;
+  }
+}
+
+
+@media all and (min-width: 1280px) {
+
+  .title-blue{
+    margin-top: 61px;
+    font-size: 32px;
+   }
+.article-blue{
+  width: 100vw;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ align-items: center;
+}
+.subtitle-blue-1{
+  margin-left: 85px;
+}
+
+.subtitle-blue-3{
+  margin-right: 85px;
+}
+
+.text-blue-1{
+margin-left: 85px;
+width: 340px;
+
+}
+.text-blue-2{
+  width: 400px;
+
+}
+
+.text-blue-3{
+  margin-right: 85px;
+  width: 400px;
+  
+  }
+  .more-reasons{
+    width: 255px;
+  }
+
+  .more-reasons:hover{
+    width: 320px;
+  
+   
   }
 }

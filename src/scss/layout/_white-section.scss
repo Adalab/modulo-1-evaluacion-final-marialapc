@@ -47,3 +47,13 @@
     border-style: solid;
    
 }
+
+.go:hover{
+  transform:scale(1.1);
+  background-color: #f26002;
+  border-color: transparent;
+  color: white;
+  transition: 0.7s;
+  cursor: pointer;
+
+}

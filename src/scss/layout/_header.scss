@@ -6,24 +6,24 @@
   justify-content: center;
   align-items: center;
   position: fixed;
-}
-.menu {
-  margin-bottom: 10.2px;
+
+  &__menu {
+    margin-bottom: 10.2px;
+  }
 }
 
 @media all and (min-width: 768px) {
-.header{
-  height: 44px;
-  width: 41.6px;
+  .header {
+    height: 44px;
+    width: 41.6px;
 
+    &__menu {
+      margin-bottom: 0px;
+    }
+  }
 }
-.menu{
-  margin-bottom: 0px;
-
- } 
-}
-@media all and (min-width: 1280px){
-  .header{
+@media all and (min-width: 1280px) {
+  .header {
     width: 44px;
   }
 }

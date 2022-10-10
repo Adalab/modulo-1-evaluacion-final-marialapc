@@ -4,7 +4,7 @@
   background-image: url(../images/cover.jpeg);
   background-size: cover;
   background-position: center;
-  color: white;
+  color: $white;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -13,7 +13,7 @@
 }
 
 .title {
-  font-family: "Roboto Slab", serif;
+  font-family:$font-2;
   font-size: 42px;
   text-transform: uppercase;
   padding-top: 300.3px;
@@ -22,7 +22,7 @@
 }
 
 .subtitle {
-  font-family: "Roboto";
+  font-family: $font-1;
   font-size: 16px;
   font-weight: 400;
   margin-bottom: 35.2px;
@@ -30,7 +30,7 @@
 }
 
 .arrow {
-  background-color: white;
+  background-color: $white;
   border-radius: 22.5px;
   padding: 14.8px 10.1px 12.6px 11px;
   margin-bottom: 34.1px;

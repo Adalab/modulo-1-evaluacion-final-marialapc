@@ -1,26 +1,33 @@
 .hero {
   height: 100vh;
   background-image: url(../images/cover.jpeg);
-  background-position: center;
+background-size: cover;
+background-position: center;
   color: white;
-  display: flex;
+  display:flex ;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   text-align: center;
-  padding: 0 1.4px 34.1px 0px;
 }
 
 .title {
   font-family: 'Roboto Slab', serif;
   font-size: 42px;
   text-transform: uppercase;
+  padding-top: 300.3px;
+  line-height: 1.31;
+  text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2)
 }
 
 .subtitle {
-    margin-bottom: 106.3px;
     font-family: 'Roboto';
+    font-size: 16px;
     font-weight: 400;
+    margin-bottom: 35.2px;
+    margin-top: 10px;
+ 
+
 
 }
 

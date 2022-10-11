@@ -1,33 +1,32 @@
 .footer {
-  background-color:$dark-blue;
+  background-color: $dark-blue;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 
-&__arrow {
-  transform: translatey(-22.5px);
-  background-color: $white;
-  width: 45px;
-  height: 45px;
-  padding: 11px 12.4px 10px 12px;
-  border-radius: 22.5px;
-  animation-name: footer__arrow;
-  animation-duration:2.3s;
-  animation-iteration-count:infinite;
-  animation-timing-function: linear;
+  &__arrow {
+    transform: translatey(-22.5px);
+    background-color: $white;
+    width: 45px;
+    height: 45px;
+    padding: 11px 12.4px 10px 12px;
+    border-radius: 22.5px;
+    animation-name: footer__arrow;
+    animation-duration: 2.3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 
-  @keyframes footer__arrow {
-    50% {
-   transform: translatey(-13px);
-    } 
+    @keyframes footer__arrow {
+      50% {
+        transform: translatey(-13px);
+      }
+    }
 
+    &__ul {
+      padding-bottom: 30px;
+    }
   }
-  
-  &__ul {
-    padding-bottom: 30px;
-  }
-}
 }
 
 .footer__list--1 {
@@ -99,18 +98,17 @@
     margin-left: 39px;
   }
 
-  .footer__list--1{
+  .footer__list--1 {
     text-align: left;
   }
-  .footer__list--2{
+  .footer__list--2 {
     text-align: left;
     margin-right: 150px;
   }
 
-  .footer__div--copy{
+  .footer__div--copy {
     margin-top: 5px;
   }
-  
 }
 @media all and (min-width: 1280px) {
   .nav {
@@ -122,7 +120,7 @@
     margin-left: 370px;
   }
 
-  .footer__list--2{
+  .footer__list--2 {
     margin-right: 370px;
   }
 }

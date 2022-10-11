@@ -1,15 +1,14 @@
-.white{
+.white {
   display: flex;
   justify-content: flex-start;
   text-align: start;
   flex-direction: column;
   width: 100vw;
 
-&__article{
+  &__article {
     margin-left: 15px;
     margin-top: 61.9px;
-
-}
+  }
 }
 .white__h4 {
   font-family: $font-1;
@@ -18,92 +17,90 @@
   text-transform: capitalize;
   margin-bottom: 10px;
 }
- .white__title{
-    font-family: $font-2;
-    font-weight: bold;
-    font-size: 24px;
-    margin-bottom: 20px;
-    text-transform: capitalize;
+.white__title {
+  font-family: $font-2;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-transform: capitalize;
 }
 
-.white__p{
-    font-family:$font-1;
-    font-weight: 300;
-    font-size: 18px;
+.white__p {
+  font-family: $font-1;
+  font-weight: 300;
+  font-size: 18px;
 }
 
-.white__button{
-    font-family: $font-1;
-    font-size: 20px;
-    font-weight: 500;
-    color:$orange; 
-    border-radius: 22.5px;
-    border-color:$orange;
-    background-color: $white;
-    width: 76px;
-    height: 45px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-    margin-left: 15px;
-    border-style: solid;
-   
+.white__button {
+  font-family: $font-1;
+  font-size: 20px;
+  font-weight: 500;
+  color: $orange;
+  border-radius: 22.5px;
+  border-color: $orange;
+  background-color: $white;
+  width: 76px;
+  height: 45px;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 15px;
+  border-style: solid;
 }
 
-.white__button:hover{
-  transform:scale(1.1);
-  background-color:$orange;
+.white__button:hover {
+  transform: scale(1.1);
+  background-color: $orange;
   border-color: transparent;
   color: $white;
   transition: 0.7s;
   cursor: pointer;
-
 }
 
 @media all and (min-width: 768px) {
-  .white__article{
+  .white__article {
     width: 690px;
-  margin-left: 39px;}
-  
-  .white__title{
+    margin-left: 39px;
+  }
+
+  .white__title {
     font-size: 26px;
     margin-bottom: 27px;
   }
 
   .white__p {
-    font-size:20px;}
-  .white__button{
+    font-size: 20px;
+  }
+  .white__button {
     margin-bottom: 60px;
     width: 91px;
     margin-left: 39px;
   }
 }
 
-
 @media all and (min-width: 1280px) {
-
-  .white__article{
+  .white__article {
     margin-left: 275px;
     margin-top: 65px;
     margin-right: 275px;
-}
+  }
 
-.white__h4{
-  font-size: 16px;
-}
-.white__title{
-  margin-bottom: 32px;
-}
+  .white__h4 {
+    font-size: 16px;
+  }
+  .white__title {
+    margin-bottom: 32px;
+  }
 
-.white__button{
-  margin-left: 275px;
-  width: 160px;
-  margin-bottom: 60px;
-}
-.white__title{
-  font-size: 32px;
-}
+  .white__button {
+    margin-left: 275px;
+    width: 160px;
+    margin-bottom: 60px;
+  }
+  .white__title {
+    font-size: 32px;
+  }
 
-.white__p{
-  font-size: 20px;
-}
+  .white__p {
+    font-size: 20px;
+  }
 }

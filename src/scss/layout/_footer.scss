@@ -13,21 +13,15 @@
   padding: 11px 12.4px 10px 12px;
   border-radius: 22.5px;
   animation-name: footer__arrow;
-  animation-duration:2s;
+  animation-duration:2.3s;
   animation-iteration-count:infinite;
   animation-timing-function: linear;
 
   @keyframes footer__arrow {
-    0% {
-  background-color:$white;
-    }
-    10% {
-  background-color:$orange;
-    
+    50% {
+   transform: translatey(-13px);
     } 
-    25%{
-      background-color:$white;
-    }
+
   }
   
   &__ul {
